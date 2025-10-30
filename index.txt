@@ -1,3 +1,49 @@
 1)In python every thing is object
 2)type(a) => return data type
 3)python support a=10 and next line a="chandan" also allow it not return error
+4)string.find('chandan') => if present than return 0 other wise 1 and this function case sensitive
+5)replace() => str.replace('chandan','yadav',1)  => 1 means count how many place you want to replace
+6)str.split()  => string to array
+7)t='dog';
+  f'chandan like {t}  => return like this 'chandan like dog'
+
+
+######
+List ordered data structure
+#####
+1)array is list in python example => numbers = [1,2,3]   and newArray = [1111,2,fruits];  print(newArray);
+2)list are mutiable means can change value inside list
+3)append => add one value in list in last numbers.append(100);
+4)extend => it also return array and indivisual value of array also
+5)remove => array.remove(200) than it remove that value from array single value remove and not return any thing
+6)pop => array.pop() => remove last element of array and return delete element
+7)insert() => array.insert(1,200) => index and value on that place data insert
+8)in => 9 in list => check data present or not
+
+#####
+dictionary unorder data structure
+#####
+1)
+
+#####
+Tuples
+#####
+1)it can store multiple items in a single varible.
+2)they are ordered
+3)they allow dublicate value
+4)immutable
+5)example => (1,2,[1,2,3],{'a':12321});
+6)Tuples.count(4) => it return 4 present in Tuples
+7)tuple.index(2) => it return index of that value first occurance
+
+
+#####
+Sets
+#####
+1)sets are mutiable sequence of multiple elements stored in a single varible,enclosed in curly braces
+2)it is un-ordered
+3)it not allow dublicate value
+4)we can not slice and index sets
+5)create empty set like this set = set();
+6)set.add(4);  => it add one value in set
+7)x.intersection(y) => return common element in set
