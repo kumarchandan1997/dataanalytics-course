@@ -16,9 +16,11 @@ List ordered data structure
 3)append => add one value in list in last numbers.append(100);
 4)extend => it also return array and indivisual value of array also
 5)remove => array.remove(200) than it remove that value from array single value remove and not return any thing
-6)pop => array.pop() => remove last element of array and return delete element
+6)pop => array.pop() => remove last element of array and return delete element and you can also pass index than it remove that index value and if not pass than remove from last
 7)insert() => array.insert(1,200) => index and value on that place data insert
-8)in => 9 in list => check data present or not
+8)in => 9 in list => check data present or not  print(9,array);
+9)extend => array.extend(['radha','rani']) => it include array data in last of array seprate value
+10)len(array) => return length of string
 
 #####
 dictionary unorder data structure
